@@ -98,7 +98,7 @@ mui框架有效的解决了这些问题，这是一个可以方便开发出高�
   基于html5的手机app的开发。本项目以36Kr为原型，使用了mui框架，以IOS7为基础的极简设计，实现了常见的侧边栏菜单、可以滑动的导航、上拉加载、下拉刷新、侧滑删除、图片轮播等常见的移动端效果。
   - [MonitorCenter](https://gitee.com/zhing/MonitorCenter)
   - [MUI-VUE](https://gitee.com/wuhou123/mui-vue2) 
-- Android端源码
+- Android端源码分析
 
 ### 输出
 - 总结文档
