@@ -99,7 +99,7 @@ mui框架有效的解决了这些问题，这是一个可以方便开发出高�
   - [MonitorCenter](https://gitee.com/zhing/MonitorCenter)
   - [MUI-VUE](https://gitee.com/wuhou123/mui-vue2) 
 - Android端源码分析
-
+- 遗留问题解决
 ### 输出
 - 总结文档
   - MUI框架的优势、劣势、以及改进的地方
