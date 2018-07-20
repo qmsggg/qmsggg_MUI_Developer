@@ -113,7 +113,7 @@ mui框架有效的解决了这些问题，这是一个可以方便开发出高�
 - 能完成复杂APP的开发
 
 ### 时间花费
-- 3个月
+- 1个月
 
 ### 进度管理
 - [teambition](https://www.teambition.com/project/5b520dc503913b0018f37181/tasks/scrum/5b520dec10fc3500188c13f6)
