@@ -125,5 +125,49 @@
 				}
 			}
 		}
+	},
+	"dependencies": {
+		"pages": {
+			"index.html": {
+				"resources": [
+					"js/update.js"
+				],
+				"refer": [],
+				"priority": 0
+			}
+		},
+		"idle": {
+			"resources": [
+				"js/mui.imageViewer.js",
+				"js/mui.picker.min.js",
+				"js/mui.dtpicker.js",
+				"js/mui.lazyload.img.js",
+				"js/mui.zoom.js",
+				"js/mui.min.js",
+				"js/mui.listpicker.js",
+				"js/mui.poppicker.js",
+				"js/webviewGroup.js",
+				"js/mui.previewimage.js",
+				"js/city.data.js",
+				"js/mui.js",
+				"js/mui.indexedlist.js",
+				"js/mui.view.js",
+				"js/beecloud.js",
+				"js/mui.pullToRefresh.js",
+				"js/mui.picker.js",
+				"index-menu.html",
+				"js/mui.pullToRefresh.material.js",
+				"fonts/mui.ttf",
+				"js/mui.lazyload.js",
+				"css/mui.css",
+				"js/mui.picker.all.js",
+				"js/city.data-3.js",
+				"js/95516.js",
+				"css/mui.min.css",
+				"js/mui.locker.js",
+				"js/feedback.js",
+				"js/arttmpl.js"
+			]
+		}
 	}
 }

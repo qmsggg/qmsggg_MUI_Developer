@@ -222,7 +222,8 @@
 					"examples/beecloud.html",
 					"examples/feedback.html",
 					"examples/imageviewer.html",
-					"examples/imageviewer-native.html"
+					"examples/imageviewer-native.html",
+					"examples/guide.html"
 				],
 				"priority": 0
 			},
