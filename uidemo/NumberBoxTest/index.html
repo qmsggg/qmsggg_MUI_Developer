@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+	</head>
+
+	<body>
+
+		<!-- 侧滑导航根容器 -->
+		<div class="mui-off-canvas-wrap mui-draggable">
+			<!-- 主页面容器 -->
+			<div class="mui-inner-wrap">
+				<!-- 菜单容器 -->
+				<aside class="mui-off-canvas-left">
+					<div class="mui-scroll-wrapper">
+						<div class="mui-scroll">
+							<!-- 菜单具体展示内容 -->
+							...
+						</div>
+					</div>
+				</aside>
+				<!-- 主页面标题 -->
+				<header class="mui-bar mui-bar-nav">
+					<a class="mui-icon mui-action-menu mui-icon-bars mui-pull-left"></a>
+					<h1 class="mui-title">标题</h1>
+				</header>
+				<!-- 主页面内容容器 -->
+				<div class="mui-content mui-scroll-wrapper">
+					<div class="mui-scroll">
+						<!-- 主界面具体展示内容 -->
+						<a href="#popover" id="openPopover" class="mui-btn mui-btn-primary mui-btn-block">打开弹出菜单</a>
+						<div id="popover" class="mui-popover">
+							<ul class="mui-table-view">
+								<li class="mui-table-view-cell">
+									<a href="#">Item1</a>
+								</li>
+								<li class="mui-table-view-cell">
+									<a href="#">Item2</a>
+								</li>
+								<li class="mui-table-view-cell">
+									<a href="#">Item3</a>
+								</li>
+								<li class="mui-table-view-cell">
+									<a href="#">Item4</a>
+								</li>
+								<li class="mui-table-view-cell">
+									<a href="#">Item5</a>
+								</li>
+							</ul>
+						</div>
+						...
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+
+	<script type="text/javascript">
+		mui(document.body).on('tap', '.mui-action-menu', function(e) {
+			//			console.log(mui('.mui-numbox-input').numbox().getValue())
+			//			mui.toast("EE", {
+			//				duration: '2000',
+			//				type: 'div'
+			//			});
+			mui('.mui-off-canvas-wrap').offCanvas('toggle');
+		});
+		document.querySelector('.mui-off-canvas-wrap').addEventListener('shown', function(event) {
+			console.log(event);
+		});
+		//传入toggle参数，用户也无需关心当前是显示还是隐藏状态，mui会自动识别处理；
+		mui('.mui-popover').popover('toggle', document.getElementById("openPopover"));
+	</script>
+
+</html>

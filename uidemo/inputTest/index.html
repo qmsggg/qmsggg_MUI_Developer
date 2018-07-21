@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<script src="js/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<script type="text/javascript" charset="utf-8">
+			mui.init();
+		</script>
+		<style>
+			/*点击变蓝色高亮*/
+			
+			.mui-table-view-cell.mui-active {
+				background-color: #0062CC;
+			}
+		</style>
+	</head>
+
+	<body>
+		<form class="mui-input-group">
+			<div class="mui-input-row">
+				<label>用户名:</label>
+				<input type="text" class="mui-input-clear" placeholder="请输入用户名称" />
+			</div>
+			<div class="mui-input-row">
+				<label>密码框:</label>
+				<input type="password" class="mui-input-clear mui-input-password" placeholder="请输入密码" />
+			</div>
+			<div class="mui-button-row">
+				<button class="mui-btn mui-btn-primary">验证</button>
+			</div>
+		</form>
+		<ul class="mui-table-view">
+			<li class="mui-table-view-cell"><a class="mui-navigate-right">Item 1</a></li>
+			<li class="mui-table-view-cell">Item 1<span class="mui-badge mui-badge-primary">111</span></li>
+			<li class="mui-table-view-cell">Item 1</li>
+			<li class="mui-table-view-cell">Item 1</li>
+		</ul>
+		
+		<ul class="mui-table-view">
+    <li class="mui-table-view-cell mui-media">
+        <a href="javascript:;">
+            <img class="mui-media-object mui-pull-left" src="../images/shuijiao.jpg">
+            <div class="mui-media-body">
+                幸福
+                <p class='mui-ellipsis'>能和心爱的人一起睡觉，是件幸福的事情；可是，打呼噜怎么办？</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media">
+        <a href="javascript:;">
+            <img class="mui-media-object mui-pull-left" src="../images/muwu.jpg">
+            <div class="mui-media-body">
+                木屋
+                <p class='mui-ellipsis'>想要这样一间小木屋，夏天挫冰吃瓜，冬天围炉取暖.</p>
+            </div>
+        </a>
+    </li>
+    <li class="mui-table-view-cell mui-media">
+        <a href="javascript:;">
+            <img class="mui-media-object mui-pull-left" src="../images/cbd.jpg">
+            <div class="mui-media-body">
+                CBD
+                <p class='mui-ellipsis'>烤炉模式的城，到黄昏，如同打翻的调色盘一般.</p>
+            </div>
+        </a>
+    </li>
+</ul>
+	</body>
+
+	<script type="text/javascript">
+		mui("#input_example input").each(function() {
+			console.log("input_example");
+		});
+	</script>
+
+</html>
