@@ -40,6 +40,13 @@
         }
 	},
 	"plus": {
+		"launchwebview": {
+			"titleNView": {
+				"backgroundcolor": "#f7f7f7",
+				"titletext": "首页",
+				"titlecolor": "#000000"
+			}
+		},
 		"splashscreen": {
 			"autoclose": true,/*是否自动关闭程序启动界面，true表示应用加载应用入口页面后自动关闭；false则需调plus.navigator.closeSplashscreen()关闭*/
 			"waiting": true
@@ -132,7 +139,10 @@
 				"resources": [
 					"js/update.js"
 				],
-				"refer": [],
+				"refer": [
+				    "index-menu.html",
+				    "examples/accordion.html"
+				],
 				"priority": 0
 			}
 		},

@@ -2,6 +2,9 @@
   "index.html": {
     "resources": [
       "js/update.js"
+    ],
+    "refer": [
+      "index-menu.html"
     ]
   }
 }
